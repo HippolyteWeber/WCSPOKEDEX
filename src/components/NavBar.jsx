@@ -14,7 +14,7 @@ function NavBar({ previousClick, nextClick, pokemonIndex, pokemonList }) {
 NavBar.propTypes = {
   previousClick: PropTypes.func.isRequired,
   nextClick: PropTypes.func.isRequired,
-  pokemonIndex: PropTypes.string.isRequired,
-  pokemonList: PropTypes.object.isRequired,
+  pokemonIndex: PropTypes.number.isRequired,
+  pokemonList: PropTypes.array.isRequired,
 };
 export default NavBar;
